@@ -27,13 +27,12 @@ body {
 
 
 
-    .menu {
+    nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin-top: 2rem;
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-
     }
 
     ul {
@@ -158,24 +157,7 @@ body {
 
     .great-coffee-span:hover {
         font-weight: 700;
-        text-shadow:
-        -1px -1px 0 var(--text-color),
-        1px -1px 0 var(--text-color),
-        -1px 1px 0 var(--text-color),
-        1px 1px 0 var(--text-color);
+        color: var(--button);
         transition: 2s;
 
-    }
-
-    .home-image {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    footer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: fixed;
     }

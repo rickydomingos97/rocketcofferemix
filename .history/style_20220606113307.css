@@ -177,5 +177,7 @@ body {
         display: flex;
         justify-content: center;
         align-items: center;
-        position: fixed;
+        posi
+        padding: 1rem ;
+        margin: 2rem;
     }

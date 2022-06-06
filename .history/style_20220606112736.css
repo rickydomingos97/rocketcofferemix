@@ -169,13 +169,5 @@ body {
 
     .home-image {
         display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    footer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: fixed;
+        justify-content: ;
     }

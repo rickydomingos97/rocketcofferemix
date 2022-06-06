@@ -1,0 +1,149 @@
+:root {
+    --background: #000;
+    --text-color: #FFF;
+    --button: #8257E5;
+    --border: #29292E;
+    --border-menu-mobile: #A8A8B3;
+    --text-color-menu-mobile: #E1E1E6;
+}
+
+* {
+    font-family: 'Manrope', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text-color);
+}
+
+header {
+    padding: 5rem 14rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 6em;
+    margin-right: -130.65px;
+}
+
+/*ul li:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 3.8em;
+    margin-left: 130px;
+    border: 3px solid #8257E5;
+    border-radius: 10px;
+
+    font-weight: bolder;
+}*/
+
+.btn-pegar-cafe {
+    width: 260px;
+    height: 60px;
+    padding: 11px 38px;
+    background-color: transparent;
+    border: 1px solid var(--button);
+    border-radius: 6px;
+    color: var(--text-color);
+    font-weight: 700;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+    /* identical to box height */
+    letter-spacing: 0.02em;
+}
+
+.btn-pegar-cafe:hover {
+    color: var(--text-color);
+    background-color: #8257E5;
+}
+
+a {
+
+    color: var(--text-color-menu-mobile);
+    text-decoration: none;
+    cursor: pointer;
+    transition: 1s;
+}
+
+a:hover {
+    color: var(--button);
+    transition: 200ms ease-in-out;
+}
+
+a:active {
+    font-weight: 700;
+}
+
+.active {
+    font-weight: bolder;
+}
+
+.main {
+    margin-top: 3rem;
+}
+
+.blur {
+    display: flex;
+    z-index: -999;
+}
+
+.blur.bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.blur.top {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+
+.great-coffee {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.great-coffee-span {
+    display: flex;
+    position: relative;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: bolder;
+    line-height: 100px;
+
+    letter-spacing: -3.8px;
+}
+
+span {
+    margin-top: 4rem;
+    font-size: 80px;
+    color: transparent;
+    border: 2px solid #8257E5;
+}
+
+.great-coffee-span {
+    color: #8257E5;
+    font-weight: 700;
+    
+}

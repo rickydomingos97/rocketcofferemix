@@ -162,20 +162,7 @@ body {
         -1px -1px 0 var(--text-color),
         1px -1px 0 var(--text-color),
         -1px 1px 0 var(--text-color),
-        1px 1px 0 var(--text-color);
+        1px 1px 0 var(--button);
         transition: 2s;
 
-    }
-
-    .home-image {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    footer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: fixed;
     }

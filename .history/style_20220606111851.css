@@ -27,7 +27,7 @@ body {
 
 
 
-    .menu {
+    nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -60,6 +60,7 @@ body {
         width: 260px;
         height: 60px;
         padding: 11px 38px;
+        margin-left: ;
         background-color: transparent;
         border: 1px solid var(--button);
         border-radius: 6px;
@@ -158,24 +159,7 @@ body {
 
     .great-coffee-span:hover {
         font-weight: 700;
-        text-shadow:
-        -1px -1px 0 var(--text-color),
-        1px -1px 0 var(--text-color),
-        -1px 1px 0 var(--text-color),
-        1px 1px 0 var(--text-color);
+        color: var(--button);
         transition: 2s;
 
-    }
-
-    .home-image {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    footer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: fixed;
     }
