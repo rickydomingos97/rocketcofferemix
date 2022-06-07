@@ -1,0 +1,29 @@
+:root {
+    --background: #000;
+    --text-color: #FFF;
+    --button: #8257E5;
+    --border: #29292E;
+    --border-menu-mobile: #A8A8B3;
+    --text-color-menu-mobile: #E1E1E6;
+}
+
+* {
+    font-family: 'Manrope', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text-color);
+}
+
+@media only screen and (max-width: 600px) {
+
+
+  }
+
+    
