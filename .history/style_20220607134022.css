@@ -171,10 +171,7 @@ body {
 }
 
 .hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    display: ;
 }
 h1 {
     font-size: 2rem;
@@ -186,18 +183,8 @@ h1 {
 }
 
 .btn-take-coffee {
-    width: 200px;
-    height: 45px;
-    border:1px solid #8257E5;
-    border-radius: 10px;
-    background: transparent;
-    color: var(--text-color);
-    font-weight: 700;
-    transi
-}
-
-.btn-take-coffee:hover {
-    background: #8257E5;
+    width: 174px;
+    height: 35px;
 }
 
 .hero-image {

@@ -192,12 +192,7 @@ h1 {
     border-radius: 10px;
     background: transparent;
     color: var(--text-color);
-    font-weight: 700;
-    transi
-}
-
-.btn-take-coffee:hover {
-    background: #8257E5;
+    font-weight: ;
 }
 
 .hero-image {

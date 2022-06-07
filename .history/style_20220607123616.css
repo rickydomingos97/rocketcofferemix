@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
-
 :root {
     --background: #000;
     --text-color: #FFF;
@@ -8,6 +6,8 @@
     --border-menu-mobile: #A8A8B3;
     --text-color-menu-mobile: #E1E1E6;
   }
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
 
 * {
   margin: 0;
@@ -18,7 +18,7 @@
 body {
     font-family: 'Manrope', sans-serif;
     background: var(--background);
-    color: #FFF;
+    color: ;
 }
 
 .container {
@@ -168,48 +168,4 @@ body {
 
 .nav-container input[type="checkbox"]:checked ~ .logo{
   display: none;
-}
-
-.hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-h1 {
-    font-size: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 5rem;
-}
-
-.btn-take-coffee {
-    width: 200px;
-    height: 45px;
-    border:1px solid #8257E5;
-    border-radius: 10px;
-    background: transparent;
-    color: var(--text-color);
-    font-weight: 700;
-    transi
-}
-
-.btn-take-coffee:hover {
-    background: #8257E5;
-}
-
-.hero-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-.hero-image img {
-
-    max-width:500px;
-    max-height: auto;
-    width: auto;
-    height: auto;
 }
