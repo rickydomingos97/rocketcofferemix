@@ -26,10 +26,6 @@ body {
   margin: auto;
 }
 
-.container .nav-container {
-    float: right;
-}
-
 .navbar {
   width: 100%;
   box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
@@ -131,7 +127,7 @@ body {
   margin-left: -40px;
   padding-left: 50px;
   transition: transform 0.5s ease-in-out;
-  text-align: left;
+  text-align: center;
 }
 
 .navbar .menu-items li {
@@ -142,8 +138,8 @@ body {
 
 .logo {
   position: absolute;
-  top: 5px;
-  /*right: 15px;*/
+  top: 5px;/
+  /*right: 15px;8
   font-size: 1.2rem;
   color: #0e2431;
 }

@@ -1,0 +1,2 @@
+.nav-container input[type="checkbox"]
+:checked ~ .hamburger-lines

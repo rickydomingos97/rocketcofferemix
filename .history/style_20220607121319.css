@@ -26,9 +26,7 @@ body {
   margin: auto;
 }
 
-.container .nav-container {
-    float: right;
-}
+container nav-container
 
 .navbar {
   width: 100%;

@@ -27,7 +27,8 @@ body {
 }
 
 .container .nav-container {
-    float: right;
+    display: flex;
+    justify-content: ;
 }
 
 .navbar {

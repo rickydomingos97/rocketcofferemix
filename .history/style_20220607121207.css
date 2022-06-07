@@ -26,10 +26,6 @@ body {
   margin: auto;
 }
 
-.container .nav-container {
-    float: right;
-}
-
 .navbar {
   width: 100%;
   box-shadow: 0 1px 4px rgb(146 161 176 / 15%);
@@ -99,7 +95,9 @@ body {
 }
 
 .nav-container .hamburger-lines .line {
-  display: block;
+  display: flex;
+  justify-content: right;
+  align-items: ;
   height: 4px;
   width: 100%;
   border-radius: 10px;

@@ -1,0 +1,4 @@
+.nav-container input[type="checkbox"]
+:checked ~ .hamburger-lines .line3 {
+    transform: rotate(-45);
+}
