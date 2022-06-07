@@ -14,19 +14,23 @@
     box-sizing: border-box;
 }
 
+html,
 body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
     background-color: var(--background);
     color: var(--text-color);
 }
 
-@media only screen and (max-width: 1366px) {
-
+@media only screen and (max-width: 440px) {
     header {
-        padding: 5rem 10rem;
+        padding: 2rem 10rem;
     }
-
     .menu {
-        visibility: hidden;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -98,6 +102,7 @@ body {
 
     .main {
         margin-top: 3rem;
+        flex-grow: 1;
     }
 
     .blur {
@@ -134,7 +139,6 @@ body {
         font-size: 80px;
         font-weight: bolder;
         line-height: 100px;
-
         letter-spacing: -3.8px;
     }
 
@@ -145,6 +149,7 @@ body {
     }
 
     .great-coffee-span {
+        font-size: 3.4rem;
         font-weight: 700;
         color: var(--background);
         text-shadow:
@@ -158,25 +163,23 @@ body {
     .great-coffee-span:hover {
         font-weight: 700;
         text-shadow:
-        -1px -1px 0 var(--text-color),
-        1px -1px 0 var(--text-color),
-        -1px 1px 0 var(--text-color),
-        1px 1px 0 var(--text-color);
+            -1px -1px 0 var(--text-color),
+            1px -1px 0 var(--text-color),
+            -1px 1px 0 var(--text-color),
+            1px 1px 0 var(--text-color);
         transition: 2s;
 
     }
 
     .home-image {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        
     }
 
-    footer {
-        visibility: hidden;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .footer {
         position: fixed;
+        bottom: 0px;
+        width: 100%;
+        text-align: center;
+        padding: 0.8rem 0px;
     }
-  }
+}

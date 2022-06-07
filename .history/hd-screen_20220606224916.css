@@ -173,7 +173,7 @@ body {
     }
 
     footer {
-        visibility: hidden;
+        visibility: ;
         display: flex;
         justify-content: center;
         align-items: center;
