@@ -214,12 +214,4 @@ h1 {
     height: auto;
 }
 
-.languages img {
-  width: 48px;
-  height: 48px;
-}
-
-.languages {
-  padding: 2rem;
-  top: 2rem;
-}
+.languages img {}
