@@ -78,7 +78,7 @@ body {
   height: 32px;
   width: 32px;
   top: 20px;
-  right: 20px;
+  left: 20px;
   z-index: 5;
   opacity: 0;
   cursor: pointer;
@@ -90,7 +90,7 @@ body {
   width: 32px;
   position: absolute;
   top: 17px;
-  right: 20px;
+  left: 20px;
   z-index: 2;
   display: flex;
   flex-direction: column;
@@ -135,7 +135,7 @@ body {
 }
 
 .navbar .menu-items li {
-  margin-bottom: 2.2rem;
+  margin-bottom: 1.2rem;
   font-size: 1.5rem;
   font-weight: 500;
 }
@@ -143,7 +143,7 @@ body {
 .logo {
   position: absolute;
   top: 1rem;
-  left: 15px;
+  left: 15;
   /*right: 15px;*/
   font-size: 1.2rem;
   color: #0e2431;
