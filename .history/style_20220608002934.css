@@ -250,12 +250,12 @@ h1 {
 }
 
 .languages a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
   padding: 4rem 2rem;
   top: 2rem;
 }
 
-.lang-options {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+div.la

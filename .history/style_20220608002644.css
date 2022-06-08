@@ -243,6 +243,13 @@ h1 {
     1px 1px 0 var(--button);
 }
 
+.languages {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
 .languages img {
   width: 48px;
   margin-left: 2rem;
@@ -252,10 +259,4 @@ h1 {
 .languages a {
   padding: 4rem 2rem;
   top: 2rem;
-}
-
-.lang-options {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }

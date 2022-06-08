@@ -250,12 +250,10 @@ h1 {
 }
 
 .languages a {
-  padding: 4rem 2rem;
-  top: 2rem;
-}
-
-.lang-options {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: ;
+
+  padding: 4rem 2rem;
+  top: 2rem;
 }

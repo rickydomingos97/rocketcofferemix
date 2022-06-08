@@ -254,8 +254,8 @@ h1 {
   top: 2rem;
 }
 
-.lang-options {
+div .lang-options {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
