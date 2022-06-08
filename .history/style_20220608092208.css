@@ -262,6 +262,11 @@ h1 {
   top: 2rem;
 }
 
+.lang-active {
+  border-bottom: 1.3px solid var(--button);
+  border-width: 1px 0 0 0;
+}
+
 .lang-options {
   display: flex;
   justify-content: center;

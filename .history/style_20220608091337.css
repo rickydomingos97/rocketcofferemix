@@ -145,9 +145,7 @@ body {
   margin: 0 0 1rem 0rem ;
 }
 
-.navbar .menu-items li:hover {
-  border-left: 2px solid var(--button);
-}
+.navbar .
 
 .logo {
   position: absolute;

@@ -262,6 +262,10 @@ h1 {
   top: 2rem;
 }
 
+.lang-active {
+  border-bottom: 1px solid var(--button);
+}
+
 .lang-options {
   display: flex;
   justify-content: center;

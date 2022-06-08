@@ -140,13 +140,7 @@ body {
   font-size: 1.5rem;
   font-weight: 500;
   border-top: #A8A8B3;
-  border-bottom: 1px solid #a8a8b323;
-  padding: 0 0 1rem 0 ;
-  margin: 0 0 1rem 0rem ;
-}
-
-.navbar .menu-items li:hover {
-  border-left: 2px solid var(--button);
+  border-bottom: 1px #A8A8B3
 }
 
 .logo {

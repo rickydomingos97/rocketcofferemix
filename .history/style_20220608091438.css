@@ -146,7 +146,7 @@ body {
 }
 
 .navbar .menu-items li:hover {
-  border-left: 2px solid var(--button);
+  border-right: 1rem solid var(--button);
 }
 
 .logo {
