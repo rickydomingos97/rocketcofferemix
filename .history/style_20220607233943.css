@@ -240,18 +240,14 @@ h1 {
     1px 1px 0 var(--button);
 }
 
-.languages li img {
-  display: flex;
-  justify-content: left;
-  align-items: center;
-}
-
 .languages img {
   width: 24px;
   height: 24px;
 }
 
 .languages li a{
+  display: flex;
+  justify-content: ;
   padding: 4rem 2rem;
   top: 2rem;
 }

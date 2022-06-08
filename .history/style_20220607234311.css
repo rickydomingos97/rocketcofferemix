@@ -247,6 +247,7 @@ h1 {
 }
 
 .languages img {
+  padding-top: 5px;
   width: 24px;
   height: 24px;
 }

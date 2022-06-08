@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
 
 :root {
-  --background: #000;
-  --text-color: #FFF;
-  --button: #8257E5;
-  --border: #29292E;
-  --border-menu-mobile: #A8A8B3;
-  --text-color-menu-mobile: #E1E1E6;
-}
+    --background: #000;
+    --text-color: #FFF;
+    --button: #8257E5;
+    --border: #29292E;
+    --border-menu-mobile: #A8A8B3;
+    --text-color-menu-mobile: #E1E1E6;
+  }
 
 * {
   margin: 0;
@@ -16,9 +16,9 @@
 }
 
 body {
-  font-family: 'Manrope', sans-serif;
-  background: var(--background);
-  color: #FFF;
+    font-family: 'Manrope', sans-serif;
+    background: var(--background);
+    color: #FFF;
 }
 
 .container {
@@ -28,7 +28,7 @@ body {
 }
 
 .container .nav-container {
-  float: right;
+    float: right;
 }
 
 .navbar {
@@ -43,7 +43,7 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 62px;
-
+  
 }
 
 .navbar .menu-items {
@@ -63,8 +63,8 @@ body {
   padding: 0.7rem;
 }
 
-.navbar .nav-container a:hover {
-  font-weight: bolder;
+.navbar .nav-container a:hover{
+    font-weight: bolder;
 }
 
 .nav-container {
@@ -150,100 +150,68 @@ body {
   color: #0e2431;
 }
 
-.nav-container input[type="checkbox"]:checked~.menu-items {
+.nav-container input[type="checkbox"]:checked ~ .menu-items {
   transform: translateX(0);
 }
 
-.nav-container input[type="checkbox"]:checked~.hamburger-lines .line1 {
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
   transform: rotate(45deg);
 }
 
-.nav-container input[type="checkbox"]:checked~.hamburger-lines .line2 {
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
   transform: scaleY(0);
 }
 
-.nav-container input[type="checkbox"]:checked~.hamburger-lines .line3 {
+.nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
   transform: rotate(-45deg);
 }
 
-.nav-container input[type="checkbox"]:checked~.logo {
+.nav-container input[type="checkbox"]:checked ~ .logo{
   display: none;
 }
 
 .hero {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-
 h1 {
-  font-size: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 5rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5rem;
 }
 
 .btn-take-coffee {
-  width: 200px;
-  height: 45px;
-  border: 1px solid #8257E5;
-  border-radius: 10px;
-  background: transparent;
-  color: var(--text-color);
-  font-weight: 700;
-  transi
+    width: 200px;
+    height: 45px;
+    border:1px solid #8257E5;
+    border-radius: 10px;
+    background: transparent;
+    color: var(--text-color);
+    font-weight: 700;
+    transi
 }
 
 .btn-take-coffee:hover {
-  background: #8257E5;
+    background: #8257E5;
 }
 
 .hero-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
-
 .hero-image img {
 
-  max-width: 500px;
-  max-height: auto;
-  width: auto;
-  height: auto;
-}
-
-.great-coffee {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.great-coffee h1 {
-  font-size: 3rem;
-  font-weight: 700;
-  margin-top: 4rem;
-  padding: 0;
-}
-.great-coffee span {
-  font-size: 3rem;
-  font-weight: 700;
-  color: rgb(0, 0, 0);
-  text-shadow:
-    -1px -1px 0 var(--button),
-    1px -1px 0 var(--button),
-    -1px 1px 0 var(--button),
-    1px 1px 0 var(--button);
-}
-
-.languages li img {
-  display: flex;
-  justify-content: left;
-  align-items: center;
+    max-width:500px;
+    max-height: auto;
+    width: auto;
+    height: auto;
 }
 
 .languages img {
@@ -251,7 +219,16 @@ h1 {
   height: 24px;
 }
 
-.languages li a{
-  padding: 4rem 2rem;
+.languages {
+  padding: 2rem;
   top: 2rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  padding-top: 2rem;
+  
 }

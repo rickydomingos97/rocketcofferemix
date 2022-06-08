@@ -240,9 +240,9 @@ h1 {
     1px 1px 0 var(--button);
 }
 
-.languages li img {
+.languages {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: center;
 }
 

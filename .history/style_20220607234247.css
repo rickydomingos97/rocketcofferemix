@@ -244,9 +244,11 @@ h1 {
   display: flex;
   justify-content: left;
   align-items: center;
+  padding-top: ;
 }
 
 .languages img {
+  
   width: 24px;
   height: 24px;
 }

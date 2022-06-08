@@ -225,13 +225,9 @@ h1 {
 
 .great-coffee h1 {
   font-size: 3rem;
-  font-weight: 700;
-  margin-top: 4rem;
-  padding: 0;
 }
 .great-coffee span {
-  font-size: 3rem;
-  font-weight: 700;
+  font-size: ;
   color: rgb(0, 0, 0);
   text-shadow:
     -1px -1px 0 var(--button),
@@ -240,18 +236,21 @@ h1 {
     1px 1px 0 var(--button);
 }
 
-.languages li img {
-  display: flex;
-  justify-content: left;
-  align-items: center;
-}
-
 .languages img {
   width: 24px;
   height: 24px;
 }
 
-.languages li a{
+.languages {
   padding: 4rem 2rem;
   top: 2rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  padding-top: 2rem 1rem;
+  bottom: 0;
 }
