@@ -141,6 +141,10 @@ body {
   font-weight: 500;
 }
 
+.navbar .menu-items li:active {
+  color: #8257E5;
+}
+
 .logo {
   position: absolute;
   top: 1rem;

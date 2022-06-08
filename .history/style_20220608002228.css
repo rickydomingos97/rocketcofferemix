@@ -141,6 +141,10 @@ body {
   font-weight: 500;
 }
 
+.navbar .menu-items li:active {
+  colo
+}
+
 .logo {
   position: absolute;
   top: 1rem;

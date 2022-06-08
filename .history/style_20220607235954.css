@@ -198,7 +198,7 @@ h1 {
 }
 
 .btn-take-coffee:hover {
-  background: #8257E5
+  background: #8257E5;
 }
 
 .hero-image {
@@ -215,8 +215,7 @@ h1 {
   width: auto;
   height: auto;
   bottom: 0;
-  padding-top: 4rem;
-  padding-bottom: 0;
+  top: ;
 }
 
 .great-coffee {
@@ -243,13 +242,18 @@ h1 {
     1px 1px 0 var(--button);
 }
 
-.languages img {
-  width: 48px;
-  margin-left: 2rem;
-  margin-top: 2rem;
+.languages li img {
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }
 
-.languages a {
+.languages img {
+  width: 24px;
+  height: 24px;
+}
+
+.languages li a{
   padding: 4rem 2rem;
   top: 2rem;
 }

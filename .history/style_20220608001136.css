@@ -198,7 +198,7 @@ h1 {
 }
 
 .btn-take-coffee:hover {
-  background: #8257E5
+  background: #8257E5;
 }
 
 .hero-image {
@@ -244,9 +244,9 @@ h1 {
 }
 
 .languages img {
-  width: 48px;
-  margin-left: 2rem;
-  margin-top: 2rem;
+  width: 24px;
+  height: 24px;
+  margin-left: ;
 }
 
 .languages a {
